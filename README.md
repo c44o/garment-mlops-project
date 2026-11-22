@@ -6,5 +6,4 @@ A small CPU-only ML pipeline: Kaggle dataset -> RandomForest regression -> MLflo
 
 - Kaggle: https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees
 - Original UCI Dataset #597, CC BY 4.0: https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees
-- Download and save `data/garments_worker_productivity.csv` (NOT included in this starter archive).
 
