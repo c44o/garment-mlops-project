@@ -1,0 +1,37 @@
+{
+  "source": "Kaggle: ish adss productivity prediction of garment employees (ishadss)",
+  "dataset_sha256": "763ffcdd39b7f7f360243c2af8f89ed733e8b5f9e511efeb0c886b83e1b76866",
+  "features": [
+    "targeted_productivity",
+    "smv",
+    "wip",
+    "over_time",
+    "incentive",
+    "idle_time",
+    "idle_men",
+    "no_of_style_change",
+    "no_of_workers",
+    "quarter",
+    "department",
+    "day",
+    "team"
+  ],
+  "target": "actual_productivity",
+  "train_rows": 711,
+  "validation_rows": 232,
+  "test_rows": 254,
+  "selected_hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 10
+  },
+  "validation": {
+    "mae": 0.10921545547516728,
+    "rmse": 0.16065768496041252,
+    "r2": 0.2685114635438224
+  },
+  "test": {
+    "mae": 0.08882595094672716,
+    "rmse": 0.13172084108666246,
+    "r2": 0.3372450057531432
+  }
+}
